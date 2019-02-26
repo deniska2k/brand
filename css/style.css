@@ -1,3 +1,26 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.wrap {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: block;
+    width: 49px;
+    height: 42px;
+    background-image: url(..//img/icon-brand.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 4px 43px;
+}
+.logo span {
+    font-size: 28px;
+    font-weight: 800;
+    color: #3498db;
+}
