@@ -2,13 +2,29 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .wrap {
-    max-width: 945px;
+    max-width: 950px;
     margin: 0 auto;
+}
+.page-header {
+    position: relative;
+}
+.header-bg {
+    display: block;
+    position: absolute;
+    background-image: url(..//img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1400px;
+    height: 639px;
+    top: 13%;
+    left: 24%;
+    z-index: -1;
 }
 
 .box-header {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 .logo {
     display: block;
@@ -23,4 +39,44 @@ body {
     font-size: 28px;
     font-weight: 800;
     color: #3498db;
+}
+.nav {
+    display: inherit;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav>li>a {
+    text-decoration:none;
+    color: #585858;
+    
+}
+.nav>li {
+    padding-right: 24px;
+}
+.center-header {
+    text-align: center;
+    margin-top: 180px;
+}
+h1 {
+    font-size: 35px;
+}
+h1 span {
+    color: #3498db;
+}
+.center-header p {
+    font-size: 15px;
+}
+.btn-more {
+    color:white;
+    background-color:#3498db;
+    border: none;
+    font-size: 20px;
+    padding: 16px 42px;
+    margin-top: 10px;
+}
+.btn-more:hover {
+    color:#3498db;
+    background-color: white;
+    border: 1px solid #3498db;
 }
