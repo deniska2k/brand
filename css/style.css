@@ -5,6 +5,7 @@ body {
     max-width: 950px;
     margin: 0 auto;
 }
+
 .page-header {
     position: relative;
     padding-bottom: 300px;
@@ -79,4 +80,48 @@ h1 span {
     color:#3498db;
     background-color: white;
     border: 1px solid #3498db;
+}
+.skills-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 575px;
+    margin: 0 auto;
+    padding-top: 40px;
+    
+}
+.skills-item {
+    width: 215px;
+    flex-basis: 232px;
+    margin-bottom: 45px;
+}
+.icon-item {
+    display: block;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+.icon-item h2 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 14px 94px;
+}
+.icon-item p {
+    font-size: 16px;
+}
+.time-icon {
+    background-image: url(../img/clock-icon.png);
+    background-size: 60px 60px;
+}
+.bag-icon {
+    background-image: url(../img/bag-icon.png);
+    background-size: 60px 60px;
+}
+.cup-icon {
+    background-image: url(../img/tea-icon.png);
+    background-size: 60px 60px;
+}
+.hand-icon {
+    background-image: url(../img/hand-icon.png);
+    background-size: 60px 60px;
 }
