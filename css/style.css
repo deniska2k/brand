@@ -126,3 +126,94 @@ h1 span {
     background-image: url(../img/hand-icon.png);
     background-size: 60px 60px;
 }
+.grid-box {
+    display: grid;
+    grid-template-areas: "a b c"
+                         "a e c"
+                         "d e h"
+                         "d g h"
+                         "f g h";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item-1 {
+    grid-area: a;
+}
+.item-2 {
+    grid-area: b;
+}
+.item-3 {
+    grid-area: c;
+}
+.item-4 {
+    grid-area: d;
+}
+.item-5 {
+    grid-area: e;
+}
+.item-6 {
+    grid-area: f;
+}
+.item-7 {
+    grid-area: g;
+}
+.item-8 {
+    grid-area: h; 
+}
+.grid-item-1 {
+    display: block;    
+    background-image: url(../img/grid-pic-1.jpg);
+    width: 300px;
+    height: 340px;
+    background-position: -206px 0px;
+    
+}
+.grid-item-2 {
+    display: block;    
+    background-image: url(../img/grid-pic-2.jpg);
+    width: 300px;
+    height: 272px;
+    background-position-x: -50px;
+    
+
+}
+.grid-item-3 {
+    display: block;    
+    background-image: url(../img/grid-pic-3.jpg);
+    width: 300px;
+    height: 453px;
+    background-position-x: -77px;
+    
+}
+.grid-item-4 {
+    display: block;
+    background-image: url(../img/grid-pic-4.jpg);
+    width: 300px;
+    height: 272px;
+    }
+.grid-item-5 {
+    display: block;
+    background-image: url(../img/grid-pic-5.jpg);
+    width: 300px;
+    height: 272px;
+    background-position-x: -130px;
+    }
+.grid-item-6 {
+    display: block;
+    background-image: url(../img/grid-pic-6.jpg);
+    width: 300px;
+    height: 226px;
+    background-position-x: -420px;
+    }
+.grid-item-7 {
+    display: block;
+    background-image: url(../img/grid-pic-7.jpg);
+    width: 300px;
+    height: 293px;
+    }
+.grid-item-8 {
+    display: block;
+    background-image: url(../img/grid-pic-8.jpg);
+    width: 300px;
+    height: 408px;
+    background-position-x: -100px;
+    }
