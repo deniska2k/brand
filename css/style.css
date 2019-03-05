@@ -130,10 +130,11 @@ h1 span {
     display: grid;
     grid-template-areas: "a b c"
                          "a e c"
-                         "d e h"
+                         "d e c"
                          "d g h"
                          "f g h";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;                                       
+    
 }
 .item-1 {
     grid-area: a;
