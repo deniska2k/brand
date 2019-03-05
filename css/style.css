@@ -128,15 +128,16 @@ h1 span {
 }
 .grid-box {
     display: grid;
-    grid-template-areas: "a b c"
+    grid-template-columns: auto auto auto;
+     /*grid-template-areas: /*"a b c"
                          "a e c"
                          "d e c"
                          "d g h"
-                         "f g h";
-    grid-template-rows: 1fr 1fr 1fr;                                       
+                         "f g h";*/
+   /* grid-template-rows: 1fr 1fr 1fr;*/                                       
     
 }
-.item-1 {
+/*.item-1 {
     grid-area: a;
 }
 .item-2 {
@@ -159,7 +160,7 @@ h1 span {
 }
 .item-8 {
     grid-area: h; 
-}
+}*/
 .grid-item-1 {
     display: block;    
     background-image: url(../img/grid-pic-1.jpg);
